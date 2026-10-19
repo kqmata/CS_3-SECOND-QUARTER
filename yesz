@@ -1,0 +1,11 @@
+def check_grades(numbers):
+
+   for grade in numbers:
+      if grade >= 75:
+         print("Passed")
+      else:
+         print("Failed")
+
+number = [90, 70, 75, 80]
+
+check_grades(number)
